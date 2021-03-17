@@ -1,0 +1,20 @@
+h1 {
+     
+
+}
+
+p {
+
+    columns:;
+}
+
+#finalResult {
+    color: blueviolet;
+    border: darkgreen solid 7px;
+    padding: 5px;
+}
+
+#resultingTemp {
+    color: indigo;
+    font-size: x-large;
+}

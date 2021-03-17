@@ -3,8 +3,37 @@
 <head>
     <title>Document Object Model</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
+    <h1>TEMP CONVERTOR</h1>
+
+    <form id="formyForm" onsubmit="convertTemp()">
+
+        <input id="tempValue" type="number" max="5000" min="-1000" value="0" maxlength="7">
+                          <!-- Buttons -->
+
+        <input type="radio" value="f" name="tempType" id="fahren" checked="checked">
+            <label for="fahren">F&deg;</label>
+        <input type="radio" value="c" name="tempType" id="celsi">
+            <label for="celsi">C&deg;</label><br>
+       <button type="submit" id="convert" >
+            CONVERT ME!
+       </button>
+        <button type="reset" id="clear">
+            Clear
+        </button>
+                                <!-- make buttons on same line -->
+        <br>
+
+    </form>
+
+    
+    <div id="finalResult">
+        <h2>Resulting Temp:</h2>
+        <p id="resultingTemp"></p>
+    
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
